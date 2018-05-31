@@ -40,6 +40,9 @@ $lsof -n -i4TCP:8081
 * shut down the other process
 $kill -9 <PID> 
 
+* 命令行编译/安装/运行/卸载IOS APP
+https://blog.csdn.net/acorld/article/details/50804495
+
 ---------------------------------------------------------------------
 
 ### rn增量升级方案
@@ -47,3 +50,13 @@ http://bbs.reactnative.cn/topic/276/reactnative%E5%A2%9E%E9%87%8F%E5%8D%87%E7%BA
 
 ### 开发工具
 https://www.cnblogs.com/vipstone/p/7125338.html
+
+## 问题
+1.No bundle url present. Make sure you’re running a packager server or have included a .jsbundle file in your application bundle.
+* Open a terminal window
+* cd into YOUR_PROJECT/ios
+* Remove the build folder with rm -r build
+* Run react-native run-ios again
+* Alternatively, you could open Finder, navigate to YOUR_PROJECT/ios and delete the build folder. Then run react-native run-ios again.
+
+
