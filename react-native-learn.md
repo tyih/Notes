@@ -40,8 +40,14 @@ $lsof -n -i4TCP:8081
 * shut down the other process
 $kill -9 <PID> 
 
+* 启动服务
+$npm start
+
 * 命令行编译/安装/运行/卸载IOS APP
 https://blog.csdn.net/acorld/article/details/50804495
+
+* 教你轻松修改React Native端口(如何同时运行多个React Native、8081端口占用问题)
+https://blog.csdn.net/fengyuzhengfan/article/details/77389953
 
 ---------------------------------------------------------------------
 
